@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "weather",
+    "name": "Weather",
     "slug": "weather",
     "privacy": "public",
     "sdkVersion": "36.0.0",
@@ -24,7 +24,13 @@
       "**/*"
     ],
     "ios": {
+      "bundleIdentifier": "com.pankajkumar.weather",
       "supportsTablet": true
-    }
+    },
+    "android": {
+      "package": "com.pankajkumar.weather",
+      "versionCode": 1
+    },
+    "description": "An app that fetches realtime weather data on the basis of location provided."
   }
 }
